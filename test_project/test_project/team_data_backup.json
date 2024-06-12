@@ -1,0 +1,20 @@
+{
+    "team_data": [
+        {
+            "id": 0,
+            "first_name": "Adrian",
+            "last_name": "Olzac",
+            "role": "admin",
+            "phone": "415-310-1619",
+            "email": "adrien@instawork.com"
+        },
+        {
+            "id": 1,
+            "first_name": "Charlene",
+            "last_name": "Pham",
+            "role": "regular",
+            "phone": "925-922-3679",
+            "email": "charlene@instawork.com"
+        }
+    ]
+}

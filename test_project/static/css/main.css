@@ -1,0 +1,171 @@
+body {
+    font-family: 'Roboto';
+    background-color: #F3F3F3;
+}
+
+.alignRight {
+    text-align: right;
+    display: inline-block;
+}
+
+.floatRight {
+    float: right;
+}
+
+.alignLeft {
+    text-align: left;
+    display: inline-block;
+}
+
+.alignTop{
+    vertical-align: top;
+}
+
+.plusIcon, .plusIcon img{
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.contentBlock{
+    width:20rem;
+    margin: auto;
+    padding:0.5rem 1rem;
+    background-color: white;
+}
+
+.header{
+    color: #4a4a4a;
+    padding-bottom: 1rem;
+}
+
+.subHeader{
+    color: #a0a5a5;
+}
+
+.sectionHeader{
+    font-size: 1rem;
+    color: #303030;
+    padding-top: 0.2rem;
+    padding-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+hr{
+    border-top: 0.0625rem solid #e7e7e7;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+hr.smallMargin{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.photo {
+    width: 3rem;
+}
+
+.photo img{
+    display: block;
+    width : 3rem;
+    height: 3rem;
+}
+
+.teamMember{
+    cursor: pointer;
+}
+
+.name{
+    font-weight: 600;
+    color: #616161;
+}
+
+.phone, .email{
+    color: #B2B7B7;
+}
+
+.name, .phone, .email{
+    font-size: 0.8rem;
+    text-align: left;
+    padding-bottom: 0.4rem;
+}
+
+.personalInfo{
+    width: calc(100% - 3.9rem);
+    padding-left: 0.5rem;
+}
+
+.block{
+    display: block;
+}
+
+.cleanInput{
+    width:100%;
+    border: 1px solid #e5e5e5;
+    color: #6d6d6d;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.7rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.188rem
+}
+
+label{
+    font-size: 0.8rem;
+    color: #616161;
+}
+
+.buttonBar{
+    padding: 0.8rem 0;
+}
+
+.primaryButton, .secondaryButton{
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 0.188rem;
+    width: 4.813rem;
+    cursor: pointer;
+}
+
+.primaryButton{
+    color: white;
+    background-color: #4C78F5;
+    border: none;
+}
+
+.secondaryButton{
+    color: #D86466;
+    background-color: white;
+    border: 0.0625rem solid #EBE9EB;
+}
+
+.primaryButton:hover{
+    background-color: #255DF5;
+}
+
+.secondaryButton:hover{
+    background-color: #fafafa;
+}
+
+label:has(+ .radio:not(:checked)){
+    color: #b0b1b1;
+}
+
+.radio:not(:checked){
+    -webkit-appearance: none;
+    width:0.813rem;
+    height:0.813rem;
+    background-color: white;
+    border: 1px solid #b0b1b1;
+    border-radius: 50%;
+}
